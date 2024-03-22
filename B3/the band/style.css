@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    background-color: black;
+    padding: 8px;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.header a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 16px;
+}
+
+.header a:hover {
+    cursor: pointer;
+    background-color: gray;
+    color: black;
+}
